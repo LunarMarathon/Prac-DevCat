@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+.footer-wrap{
+    width: 317px;
+    height: 64px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.footer-wrap > img{
+    width: 25px;
+    height: 25px;
+    margin: 12px;
+}
+
+.MainContentWrap{
+    width: 317px;
+    height: 419px;
+    background: #1A1B21;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #DCDCDC;
+    padding: 25px 35px;
+    margin-top: 0px;
+}
+
+.MainContentWrap > h1 {
+    font-weight: 700;
+}
+
+.ButtonWrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 34px;
+}
+
+.Email > img{
+    /* width: 13.33px;
+    height: 13.33px; */
+}
+
+.Btn-common-code{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+    margin: 0px 8px;
+}
+
+.Email{
+    background: #FFFFFF;
+}
+
+.LinkedIn{ 
+    background: #5093E2;
+    color: white;
+}
+
+.Name, .Role, .Website {
+    text-align: center;
+}
+
+.Name{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.Role{
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+    margin: 6px 0px 9px 0px;
+}
+
+.Website{
+    display: block;
+    font-size: 10.24px;
+    color: #F5F5F5;
+    margin-bottom: 15px;
+}
+
+.ProfilePic{
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.AppContent{
+    width: 317px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background: #23252C;
+    margin: 44px 0px;
+}
+
+.catt{
+    color: #F3BF99;
+}
